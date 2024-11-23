@@ -1,5 +1,5 @@
 const { checkFundingRates } = require('./bybit');
 
 (async () => {
-  await checkFundingRates();
+  await checkFundingRates(0.0001);
 })();
